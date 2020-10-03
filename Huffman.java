@@ -120,7 +120,7 @@ class HuffmanBuild {
 	private void generateCharCode(HuffmanNode root, String s) {
  
 		if (root.left == null && root.right == null) {
-		   // System.out.println(root.c + ":" + s);
+		   System.out.println(root.c + ":" + s);
 		   new_hash_map.put(root.c, s);
 		   return;
 		}
