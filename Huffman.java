@@ -155,7 +155,7 @@ class HuffmanBuild {
   			}
 
   			String code = sb.toString();
-  			System.out.println(code);
+  			System.out.println(" "+code);
 
 		} catch(FileNotFoundException ex) {
     		ex.printStackTrace();
